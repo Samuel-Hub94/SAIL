@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --background-color: #f8fafa; /* Light grayish blue */
+  --foreground-color: #f0f4f8; /* Dark blue */
+  --Card-bg: hsl(227, 35%, 87%) ;
+  --primary-text-color: hsl(240, 3%, 15%); /* Dark gray */
+  --secondary-text-color: hsl(229, 10%, 43%); /* Light gray */
+  --toggle-bg: #5077be; /* Soft yellow */
+  --toggle-fg: #dfe7ec; /* Dark yellow */
+  --toggle-slider-bg: rgb(20, 20, 20); /* Default slider background */
+  --toggle-checked-bg: #2196F3; /* Checked slider background */
+  --toggle-slider-knob: white; /* Slider knob color */
+  --gradient-top-border: linear-gradient(90deg, #fdc468, #df4996);
+
+}
+
+[data-theme="Dark"] {
+  --background-color: hsl(230, 17%, 14%); /* Almost black */
+  --foreground-color: hsl(232, 19%, 15%); /* Light blue */
+  --Card-bg: hsl(228, 28%, 20%) ;
+  --Card-bg-hover: hsl(228, 23%, 25%) ;
+  --primary-text-color: hsl(227, 71%, 93%); /* Light gray */
+  --secondary-text-color: hsl(0, 8%, 52%); /* Dark gray */
+  --toggle-bg: #86e09a ; /* Dark blue-gray */
+  --toggle-fg: #3b1c6e; /* Bright blue */
+  --toggle-slider-bg: rgb(20, 20, 20); /* Default slider background for dark theme */
+  --toggle-checked-bg: #00b0ff; /* Checked slider background for dark theme */
+  --toggle-slider-knob: white; /* Slider knob color for dark theme */
+}
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+.App {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+/* Mobile Styles */
+@media (max-width: 1440px) {
+ 
+}
+
+/* Desktop Styles */
+@media (min-width: 375px) {
+  
+
+  
+}
